@@ -45,7 +45,7 @@ public class RTBParser {
 			rtb.analyzeTimeBlocks(RTBParser.datesA, minutes, RTBParser.dataMapA, 'A');
 		}
 		else {
-			System.out.println("Invalid time period entered, application exiting");
+			System.out.println("Invalid time period entered or Exit called, application exiting");
 			System.exit(0);		
 		}
 		input.close();		
